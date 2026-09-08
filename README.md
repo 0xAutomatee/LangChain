@@ -66,6 +66,41 @@ press  CTRL + SHIFT + P    TO OPENT THE Python  interpreter   >> scroll down to 
 
   pip  install -r  requirements.txt
 
+  ```
+from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+import os
+I
+def build_char()
+#Load environment variables from.env
+load_dotenv()
+#Gemini API key is read from GOOGLE_API_KEY env var
+api_key os.getenv("GOOGLE_API_KEY")
+if not api_key:
+raise ValueError("GOOGLE_API_KEY not found in environment/.env")
+11m ChatGoogleGenerativeAI(
+)
+model-"gemini-2.5-flash",
+temperature-0.4,
+google_api_key-api_key, optional if it's already in env, but explicit is clear
+prompt Chat PromptTemplate.from_messages(
+[
+(
+"system",
+(
+"You are a senior software architect helping developers make
+"good technical decisions. Be concise, practical, and specific.
+"Focus on architecture, tools, trade-offs, and best practices."
+),
+"human",
+(
+"Developer question:\n"
+"{question}\n\n"
+"Answer for an experienced tech audience.
+"Use short paragraphs and bullets when helpful."
+),    ```
+
 
 
 
