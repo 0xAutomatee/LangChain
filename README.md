@@ -152,7 +152,9 @@ def build_char():
 ```
 #  hi updated code as Today Date
 
-```
+# LangChain Gemini Example
+
+```python
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -225,7 +227,6 @@ else:
 print("========== GEMINI RESPONSE ==========\n")
 print(answer)
 ```
-
 
 
 
