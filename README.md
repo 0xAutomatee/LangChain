@@ -122,7 +122,7 @@ def build_char():
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
         temperature=0.4,
-        google_api_key=api_key,  # Optional if it's already in env, but explicit is clear
+        google_api_key=api_key,
     )
 
     prompt = ChatPromptTemplate.from_messages(
@@ -146,6 +146,9 @@ def build_char():
             ),
         ]
     )
+
+    return llm, prompt
+
 ```
 
 
