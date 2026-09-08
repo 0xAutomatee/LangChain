@@ -152,6 +152,85 @@ def build_char():
 ```
 
 
+```
+updated code as Today Date
+
+from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+import os
+
+
+def build_chat():
+    load_dotenv()
+
+    api_key = os.getenv("GOOGLE_API_KEY")
+
+    if not api_key:
+        raise ValueError("GOOGLE_API_KEY not found in .env")
+
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-3.6-flash",
+        google_api_key=api_key,
+    )
+
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """
+You are a senior software architect helping developers make
+good technical decisions.
+
+Be concise, practical, and specific.
+Focus on architecture, tools, trade-offs, and best practices.
+""",
+            ),
+            (
+                "human",
+                """
+Developer question:
+
+{question}
+""",
+            ),
+        ]
+    )
+
+    return llm, prompt
+
+
+llm, prompt = build_chat()
+
+chain = prompt | llm
+
+print("Sending request to Gemini...\n")
+
+response = chain.invoke(
+    {
+        "question": "What is the difference between REST API and GraphQL?"
+    }
+)
+
+
+# Convert Gemini response to clean text
+if isinstance(response.content, str):
+    answer = response.content
+else:
+    answer = "\n".join(
+        block.get("text", "")
+        for block in response.content
+        if isinstance(block, dict) and block.get("type") == "text"
+    )
+
+
+print("========== GEMINI RESPONSE ==========\n")
+print(answer)
+
+```
+
+
+
 
 
 
