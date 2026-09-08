@@ -150,11 +150,9 @@ def build_char():
     return llm, prompt
 
 ```
-
+#  hi updated code as Today Date
 
 ```
-updated code as Today Date
-
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -226,7 +224,6 @@ else:
 
 print("========== GEMINI RESPONSE ==========\n")
 print(answer)
-
 ```
 
 
