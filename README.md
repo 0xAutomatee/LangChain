@@ -24,6 +24,11 @@ Setting up virtual environments for the project.
  1>   click ...  on left side of "Run"   open New Terminal
 
  <img width="892" height="406" alt="image" src="https://github.com/user-attachments/assets/b2fa67de-6e73-4010-941d-5a6af62f8f06" />
+## pratical
+``` python -m venv env1  ```
+
+ <img width="1862" height="673" alt="image" src="https://github.com/user-attachments/assets/0a854f83-17ae-48d6-bff2-b33c29567406" />
+
 
  
 
