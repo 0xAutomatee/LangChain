@@ -148,7 +148,9 @@ def build_char():
     )
 
     return llm, prompt```
-#  hi updated code as Today Date
+#  hi updated code as Today Date   
+
+creat .env   file with value like  "GOOGLE_API_KEY=AQ.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # LangChain Gemini Example
 
