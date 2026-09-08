@@ -147,9 +147,7 @@ def build_char():
         ]
     )
 
-    return llm, prompt
-
-```
+    return llm, prompt```
 #  hi updated code as Today Date
 
 # LangChain Gemini Example
