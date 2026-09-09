@@ -373,6 +373,35 @@ Correct! Using virtual environments isolates project dependencies, prevents vers
 </details>
 
 
+##Comparing Leading LLM Providers
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/23bef31b-18d7-4785-a861-edb41b700171" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/977b6c9b-7787-47bb-933e-809ca30d0ba5" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/14ab3f90-28a1-4ba4-9351-bc2bd51aae56" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b5d91574-85c1-43f6-861f-186cf21dc127" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1405f347-b939-4f5b-89ae-fdea4ea89517" />
+
+<details>
+
+ ​Welcome to this video on comparing leading LLM providers. ​The AI landscape is evolving faster than ever, and organizations today face an important ​question. ​Which LLM provider should we trust for our business needs? ​With choices like OpenAI, Google Gemini, Claude and Mistral, each bringing unique strengths ​to the table, the selection process can feel both exciting and overwhelming. ​In this video, we are going to break things down clearly, so you not only understand what ​sets these providers apart, but also how to choose the one that aligns best with your ​goals, your data, and your long-term strategy. ​As we get started, it helps to understand why evaluating LLM providers is so critical. ​Each provider comes with different strengths, whether it's a longer context window, stronger ​multimodal abilities, lower cost, or tighter safety controls. 
+​And that's why the idea of fit-for-purpose becomes so important. ​A model that's fantastic for coding might not be the best choice for processing long ​business documents or handling sensitive enterprise data. ​Of course, every choice involves trade-offs. ​High accuracy may come with higher cost, while open-source flexibility might require ​more engineering effort. ​Evaluating providers carefully leads to better strategic decisions. ​You understand the limits, anticipate the risks, and choose a model that supports your ​deployment and compliance needs with confidence. ​When comparing models, there are several factors that truly influence performance in real-world ​scenarios. 
+​One of the biggest is the context window – your model's ability to handle long inputs. ​If you deal with reports, contracts, or policy documents, this becomes essential. ​Next is performance and quality – how well the model reasons, how accurately it responds, ​and how consistently it follows instructions. ​Then we have cost and licensing, which can dramatically affect scalability and budgeting, ​especially as usage grows. ​And finally, safety and ethical constraints – this includes compliance, content filtering, ​and whether the provider aligns with your industry's regulatory expectations. ​These criteria together paint a full picture of what you can and cannot expect from each ​provider. ​Now, let's walk through the first set of evaluation factors when choosing an LLM provider. 
+​We begin by defining the use case – whether you're handling long documents, short queries, ​multimodal inputs, or sensitive data. ​A clear use case guides model selection. ​Next is multimodal matching – ensure the provider supports the input and output types ​you need, whether that's text, images, audio, or structured data. ​Then consider integration and coding capability. ​The model should fit easily into your workflow with APIs, SDKs, and tooling your team can ​use efficiently. ​Privacy and compliance come next – understand how data is handled, stored, retained, audited, ​and verify support for VPC or on-prem deployments if required. ​After that, balance cost versus performance – high-end models may be powerful, but not ​always necessary. 
+​Aim for the best performance within your budget. ​Finally, always pilot the model. ​Testing with real workloads ensures it performs well in actual scenarios, not just in demos. ​As we move ahead, the focus shifts toward long-term reliability and architectural decisions. ​Start with compliance – validate data residency, auditability, encryption standards, and alignment ​with your organization's security policies. ​Next, evaluate deployment needs – whether you require on-premise setups, private cloud, ​or fully managed infrastructure. ​Providers differ in the level of control they offer, so this quickly narrows your options. 
+​Then, run domain-specific validation. ​Even top-performing models can falter with legal, medical, or financial content, so testing ​with real industry datasets is essential. ​After that, assess customization options – fine-tuning, custom guardrails, or structured output controls ​can make the model significantly more aligned with your requirements. ​You should also consider vendor lock-in – AI moves fast, and you need the ability to switch ​models as better ones emerge. ​Abstraction tools like Lankchain help maintain portability and control. ​Ultimately, your choice should come from a balanced final assessment that weighs compliance, ​cost, performance, scalability, and integration complexity together rather than in isolation. ​Now, let's bring all of this together by looking at today's leading LLM providers. 
+​OpenAI remains a top performer with GPT-4 and GPT-5, offering exceptional reasoning ​and language abilities, though at a higher cost and with limited self-hosting options. ​Google DeepMind delivers the Gemini series – strong in multimodal capabilities and ​rapidly improving across enterprise use cases. ​Anthropx's Claude models focus heavily on safety and controllability, making them a ​trusted choice for regulated industries. ​Meta's Elama models, being open-source, offer impressive flexibility and cost savings ​– ideal for teams that prefer self-hosting or customization. ​And, finally, Mistral AI provides highly efficient, high-performing models with a growing ecosystem ​and strong value per parameter. ​Each provider brings something unique, and the right choice depends entirely on your ​goals and constraints. ​So, to wrap up, selecting an LLM provider is less about choosing the best model and ​more about choosing the right model for your needs. 
+​When you consider context length, performance, licensing, safety, compliance, and integration ​complexity, the path becomes much clearer. ​With a structured evaluation approach, you can confidently adopt an LLM that supports ​your current use cases and scales with your future innovation. ​Thank you for watching this video. ​I look forward to seeing you in the next video. 
+</details>
+
+
+
+
+
+
 
 
 
