@@ -227,7 +227,9 @@ else:
 print("========== GEMINI RESPONSE ==========\n")
 print(answer)
 ```
-
+##Practice Assignment: Setting Up Your AI Development Environment
+ 
+<img width="516" height="558" alt="image" src="https://github.com/user-attachments/assets/d4e58268-b524-4a34-b300-3fc2f59fde8e" />
 
 
 
