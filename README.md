@@ -398,6 +398,45 @@ Correct! Using virtual environments isolates project dependencies, prevents vers
 </details>
 
 
+##  Best Practices for Choosing the Right Model
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/49334086-759c-42c7-ae58-af57d84f674f" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1be9dd48-f680-4087-baed-0867a67180e3" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/831ea178-4584-4bef-89f9-63cb2dd4b1a0" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1186d9f4-d828-4b80-bcdf-e07d4a5a6b0b" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b5e3dab6-4095-4ae9-a169-109646ce4520" />
+
+<details>
+
+
+​Welcome to this video on best practices for choosing the right model. ​With AI capabilities expanding at a rapid pace, selecting the right model is no longer ​just a technical decision. ​It's a strategic one. ​Over the next few slides, we'll explore a clear practical approach to evaluating models ​so you can make confident choices that align with your business goals, your data and the ​performance you expect. ​Before we dive into the steps, let's understand why model selection matters. ​Different models excel in different areas. ​Some are built for reasoning, some for multimodal tasks and others for long context understanding. 
+​Choosing the wrong model can increase cost and latency, slowing down workflows and inflating ​budgets. ​Accuracy and safety also come into play. ​A poorly aligned model increases the risk of hallucinations and compliance issues, especially ​in regulated industries. ​And with a wide variety of commercial and open source options available today, strategic ​selection becomes essential. ​Ultimately, the right model improves reliability, scalability and long term ROI, making this ​evaluation process incredibly important. ​Now let's begin with the first and most foundational step, defining your use case. ​Start by identifying the task. 
+​Are you generating content, answering questions, writing code or working with multimodal inputs ​like audio or images? ​Then move on to setting the context needs, whether you require large context windows, ​image support or audio to text capabilities. ​Next, choose your priorities. ​Do you care more about reasoning power, cost efficiency or latency? ​Knowing this upfront avoids misalignment later. ​It's also helpful to define clear metrics such as accuracy, speed, cost per token or ​throughput. ​And the impact of this step is enormous. 
+​Clarifying your use case early reduces development effort, avoids over engineering and saves ​both time and budget. ​Once the use case is clear, the next step is evaluating how well a model performs across ​several key dimensions. ​Begin with reasoning and accuracy, especially for analytical or decision heavy tasks. ​Then consider multimodal capabilities and speed, which become essential if your application ​processes images, videos or audio. ​Next, look at customization options, whether the model allows fine tuning or adding guardrails. ​From there, assess safety and validation features, ensuring the model aligns with your industry's ​compliance standards. ​And finally, review context size, since this determines how much information the model ​can process in a single prompt. 
+​Together, these dimensions paint a realistic picture of whether a model can truly meet ​your needs, not just in benchmarks, but in real world usage. ​Next we move into the practical considerations, cost, deployment and compliance. ​Start by comparing cost versus usage. ​Even a small difference in cost per 1000 tokens can become significant at scale. ​Then examine deployment options. ​Self hosting gives you greater control and privacy, while cloud hosting may offer simplicity ​and faster adoption. ​Data privacy becomes critical here. 
+​Check data residency rules, retention policies and any API restrictions the provider may ​impose. ​And of course, evaluate latency and scale. ​If your application handles high throughput, batching and optimized workflows become essential ​for performance. ​Getting this balance right helps you build a system that's both cost efficient and compliant, ​without sacrificing user experience. ​Finally, the most important practice, prototype, test and iterate. ​Begin by testing two to three models with real data and real workloads. ​This step reveals far more than benchmarks alone. 
+​Measure accuracy, hallucination rates, latency and overall cost, so you understand the trade ​offs clearly. ​Then compare the cost per 1000 tokens along with the total workflow cost, since different ​models perform differently under load. ​Using lang chain or similar frameworks can make model switching seamless, allowing you ​to refine your choices quickly. ​And above all, choose the model that fits your business needs, not the trend of the ​moment. ​Practical alignment always outperforms hype. ​So to wrap up, choosing the right model is all about alignment, matching the model strengths ​with your specific tasks, constraints and goals. ​When you define your use case clearly, evaluate performance dimensions thoughtfully and test ​models with real workloads, you create a selection process that leads to reliable, scalable AI ​solutions. 
+​With the right model in place, your applications become more accurate, more efficient and far ​easier to maintain, allowing you to focus on innovation rather than troubleshooting. ​Thank you for watching this video. ​See you in the next one.
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
