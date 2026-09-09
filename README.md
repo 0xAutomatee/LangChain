@@ -350,6 +350,32 @@ Correct! Using virtual environments isolates project dependencies, prevents vers
 </details>
 
 
+## How LLMs Work in LangChain
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2c4e1cec-c498-4a7f-9432-245e57ea42e1" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/46b5dd7e-6ab3-4cff-a131-c481cb568526" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fa8c523e-f957-47f7-8dad-b303b363483d" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5e8be37e-b7f8-42cb-813a-6fbe10f9a10c" />
+
+<details>
+
+​Welcome to this video on how large language models work in LangChain. ​If you've ever wondered how tools like ChatGPT, Cloud or Gemini can be connected, orchestrated ​and enhanced inside real applications, then LangChain is the framework that makes all ​of this happen. ​In this video, we'll walk through how LangChain processes prompts, interacts with memory, ​retrieves information and links everything together through chain workflows. ​By the end of this video, you'll have a clear understanding of how LangChain acts as the ​backbone for building powerful LLM driven systems. ​So let's begin by understanding the core workflow. ​First LangChain processes the input prompt by sending it to an LLM. ​This is where the model interprets the query, understands intent and begins crafting a response. 
+​Next LangChain manages the flow between the LLM memory and any external tools. ​You can think of it like a traffic controller, making sure the right information reaches ​the right component at the right time. ​Then when additional information is needed, LangChain retrieves relevant data using retrieval ​augmented generation. ​This allows the model to answer with context instead of guessing. ​And finally, agents come into play. ​Agents reason through the problem and decide which actions to execute, whether that's querying ​a tool, searching for data or assembling a final structured output. ​All these steps together create a smooth, intelligent process that goes far beyond a ​simple chat prompt. 
+​Now that we've seen the overall workflow, let's look at one of LangChain's biggest advantages. ​It's abstraction layer. ​LangChain provides a clean, standardized wrapper around any LLM you choose. ​That means you're not locked into one provider. ​You can start with OpenAI, switch to Gemini or experiment with open source models, often ​without touching your core code. ​This modular design allows developers to focus on building features instead of worrying about ​integrations. ​And because the abstraction reduces complexity across different model types, your application ​becomes easier to maintain, more flexible and future proof. 
+​In simple terms, LangChain acts like a universal adapter. ​Plug in any model and it just works. ​Next, let's walk through how LangChain handles document chunking, which is a key part of ​any retrieval based system. ​We begin by loading documents, PDFs, internal files or even web pages using LangChain's ​document loaders. ​Then the content is cleaned and normalized so that the structure and metadata stay intact. ​After that, the text is split into chunks, making large documents easier for the model ​to process. ​Instead of reading a 200 page file at once, the LLM gets bite sized relevant sections. 
+​Once chunks are ready, embeddings are generated. ​These are vector representations that allow semantic search. ​And finally, these embeddings are stored in a vector database, making retrieval fast, ​accurate and highly contextual. ​This chunking pipeline is what powers most modern RAG applications built with LangChain. ​Now, let's see how all of this comes together when you ask the model a question. ​We start by assembling the prompt. ​This includes the system instructions, context and user query. 
+​The LLM then generates an answer, but LangChain doesn't stop there. ​Next, the output is passed and formatted so you can turn raw text into structured data ​like JSON, tables or action items. ​If your workflow uses memory, LangChain enhances the interaction by storing conversational ​context so your app feels more personalized and consistent. ​Then tools can be invoked like searching a database, calling an API or running code. ​And finally, everything is brought together in chain workflows where multiple steps are ​connected into a single automated pipeline. ​This is what transforms a simple LLM into a fully functional AI system. ​So to wrap up, LangChain provides the structure, intelligence and flexibility needed to build ​powerful LLM applications. 
+​It processes prompts, manages memory, retrieves knowledge and connects tools, making the entire ​experience seamless for both developers and end users. ​Whether you're building chatbots, RAG systems, automation tools or AI agents, LangChain takes ​care of the heavy lifting so you can focus on innovation. ​Thank you for watching this video. ​See you in the next one.
+ 
+</details>
+
+
+
+
+
 
 
 
